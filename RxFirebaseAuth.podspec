@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source_files     = "Sources/**/*"
   s.static_framework = true
   s.swift_version    = "5.0"
-  s.dependency "Firebase/Auth", "~> 6.0"
-  s.dependency "RxSwift", "~> 5.0"
+  s.dependency "Firebase/Auth", "~> 8.7.0"
+  s.dependency "RxSwift", "~> 6.2.0"
 end
